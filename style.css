@@ -1,0 +1,40 @@
+.container{
+    /* position: relative; */
+    display: flex;
+}
+
+#canvas1 {
+    position: absolute;
+    
+    border: 1px solid black;
+    top:50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    height: 1000px;
+    width: 400px;
+
+}
+
+#canvas2 {
+    position: absolute;
+    
+    border: 1px solid black;
+    top:50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    height: 1000px;
+    width: 400px;
+
+}
+
+#canvas3 {
+    position: absolute;
+    
+    border: 1px solid black;
+    top:50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    height: 1000px;
+    width: 400px;
+
+}
